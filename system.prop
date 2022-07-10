@@ -1,0 +1,36 @@
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# Pre-rendering
+ro.vendor.perf.scroll_opt=true
+
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
+
+# DHA Tunning
+ro.config.dha_tunnable=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# SleepMode
+PRODUCT_PROPERTY_OVERRIDES += \
+    pm.sleep_mode=1
+
+# Blurs
+ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=0
+persist.sys.sf.disable_blurs=0
+ro.launcher.blur.appLaunch=0
+
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+   debug.sdm.support_writeback=0
+
+# Additional props
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
