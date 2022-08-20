@@ -44,10 +44,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-superior
 
 
-# Pixel Launcher
-PRODUCT_PACKAGES += \
-    PixelLauncher
-    
 # Powerhint
 EAS_POWERHINT_VARIANT := sdm636
 
