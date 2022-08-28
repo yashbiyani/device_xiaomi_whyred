@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_whyred.mk
+    $(LOCAL_DIR)/crystal_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_whyred-user \
-    evolution_whyred-userdebug \
-    evolution_whyred-eng
+    crystal_whyred-user \
+    crystal_whyred-userdebug \
+    crystal_whyred-eng

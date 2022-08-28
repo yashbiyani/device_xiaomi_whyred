@@ -19,6 +19,7 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := whyred_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
