@@ -13,6 +13,7 @@ $(call inherit-product, vendor/crystal/config/common.mk)
 
 # Inherit from custom vendor.
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
 
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -39,3 +40,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_USES_MINI_GAPPS := true
 TARGET_GAPPS_ARCH:=arm64 
+PIXEL_LAUNCHER_VARIANT := taweret
+ICONS_VARIANT := teamfilesicons
+AOSP_ENHANCER := true
