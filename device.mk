@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-   GCamGOPrebuilt 
+   GCamGOPrebuilt \
+   camera.sdm660
    
 # Consumerir
 BOARD_HAVE_IR := true
