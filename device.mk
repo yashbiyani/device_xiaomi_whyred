@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gatekeeper@1.0-service
 
+# Include display HAL makefiles.
+include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
+include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-product-system.mk
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
